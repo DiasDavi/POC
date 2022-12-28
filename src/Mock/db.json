@@ -1,0 +1,320 @@
+{
+  "images": [
+    {
+      "url": "src/_assets/img/infracao1.jpg",
+      "infraction": "sucess"
+    },
+    {
+      "url": "src/_assets/img/infracao2.jpg",
+      "infraction": "sucess"
+    },
+    {
+      "url": "src/_assets/img/infracao3.jpg",
+      "infraction": "error"
+    },
+    {
+      "url": "src/_assets/img/infracao4.jpg",
+      "infraction": "warning"
+    },
+    {
+      "url": "src/_assets/img/infracao5.jpg",
+      "infraction": "error"
+    }
+  ],
+  "system": {
+    "alert": [
+      {
+        "icon": "fa-solid fa-wifi",
+        "class": "warning",
+        "title": "Conexão de rede fraca",
+        "content": "A falta de conexão com a rede pode afetar a conexão com a base"
+      },
+      {
+        "icon": "fa-solid fa-microchip",
+        "class": "error",
+        "title": "Memoria da radxa chegou a 80%",
+        "content": "Falta de memoria pode afetar o desempenho do sistema"
+      },
+      {
+        "icon": "fa-solid fa-microchip",
+        "class": "error",
+        "title": "Memoria da radxa chegou a 80%",
+        "content": "Falta de memoria pode afetar o desempenho do sistema"
+      }
+    ],
+    "logs": [
+      {
+        "icon": "fa-solid fa-sitemap",
+        "class": "system",
+        "title": "Porcentagem de CPU utilizada desde o ultimo log",
+        "content": "CPU USAGE: [31.759972 %] in last [28 s], Total MEM: [330712 kB], Free MEM: [285836 kB], MEM: [14 %], FreeDiskSD0: [60490 kB]"
+      },
+      {
+        "icon": "fa-solid fa-circle-exclamation",
+        "class": "error",
+        "title": "Porcentagem de CPU utilizada desde o ultimo log",
+        "content": "CPU USAGE: [31.759972 %] in last [28 s], Total MEM: [330712 kB], Free MEM: [285836 kB], MEM: [14 %], FreeDiskSD0: [60490 kB]"
+      },
+      {
+        "icon": "fa-solid fa-circle-exclamation",
+        "class": "error",
+        "title": "Porcentagem de CPU utilizada desde o ultimo log",
+        "content": "CPU USAGE: [31.759972 %] in last [28 s], Total MEM: [330712 kB], Free MEM: [285836 kB], MEM: [14 %], FreeDiskSD0: [60490 kB]"
+      }
+    ]
+  },
+  "configs": {
+    "economy": false,
+    "nightMode": true,
+    "velocity": true,
+    "radxaMode": true,
+    "manufactureMode": true,
+    "motorcycleMode": true,
+    "antiJamming": true,
+    "weatherMode": true,
+    "blitzMode": true,
+    "system": {
+      "METSystem": {
+        "ID": "62d86734690ab",
+        "version": "1.5",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "NMETSystem": {
+        "ID": "62d867825bc24",
+        "version": "2.2",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "camera": {
+        "ID": "62d868c4af031",
+        "version": "1.45.8"
+      },
+      "laser": {
+        "ID": "62d868fc43033",
+        "version": "0.150.80"
+      }
+    },
+    "lightVelLim": "80",
+    "lightVelCap": "90",
+    "heavyVelLim": "60",
+    "heavyVelCap": "70",
+    "targetFormat": "Retangulo",
+    "CaptureMode": "Imagem",
+    "imageBrightness": "Alto",
+    "LCDBrightness": "Alto",
+    "dataFormat": "dd/mm/aaaa"
+  },
+  "locations": [
+    {
+      "id": 8,
+      "street": "Av das pitangueiras "
+    },
+    {
+      "id": 12,
+      "street": "Carmen Galã Burgos2"
+    }
+  ],
+  "schedule": [
+    {
+      "type": "Excecao",
+      "local": {
+        "type": "Urbano",
+        "local_name": "31 de março "
+      },
+      "day": [
+        "Segunda",
+        "Sabado",
+        "Domingo",
+        "Terça"
+      ],
+      "lane": [
+        "Faixa 1",
+        "Faixa 2"
+      ],
+      "morning_period": [
+        {
+          "from": "08:09",
+          "to": "09:09"
+        },
+        {
+          "from": "10:09",
+          "to": "11:09"
+        }
+      ],
+      "afternoon_period": [
+        {
+          "from": "16:09",
+          "to": "17:09"
+        },
+        {
+          "from": "17:09",
+          "to": "18:09"
+        }
+      ],
+      "infraction": "ZMRF",
+      "initial_date": "2022-04-08",
+      "final_date": "2022-08-25",
+      "initial_hour": "08:08",
+      "final_hour": "21:08",
+      "id": 5
+    },
+    {
+      "type": "Agendamento",
+      "local": {
+        "type": "Urbano",
+        "local_name": "Av das pitangueiras"
+      },
+      "day": [
+        "Segunda"
+      ],
+      "lane": [
+        "Faixa 1"
+      ],
+      "morning_period": [],
+      "afternoon_period": [
+        {
+          "from": "13:50",
+          "to": "14:51"
+        }
+      ],
+      "initial_date": "2022-08-23",
+      "final_date": "2022-08-24",
+      "initial_hour": "13:50",
+      "final_hour": "15:50",
+      "infraction": "Rodizio",
+      "id": 7
+    },
+    {
+      "type": "Agendamento",
+      "local": {
+        "type": "Urbano",
+        "local_name": "Av das pitangueiras"
+      },
+      "day": [
+        "Segunda"
+      ],
+      "lane": [
+        "Faixa 1"
+      ],
+      "morning_period": [
+        {
+          "from": "08:33",
+          "to": "09:33"
+        }
+      ],
+      "afternoon_period": [
+        {
+          "from": "16:33",
+          "to": "18:33"
+        }
+      ],
+      "infraction": "Rodizio",
+      "initial_date": "2022-09-04",
+      "final_date": "2022-09-07",
+      "initial_hour": "10:32",
+      "final_hour": "18:32",
+      "id": 8
+    },
+    {
+      "type": "Excecao",
+      "local": {
+        "type": "Urbano",
+        "local_name": "Av das pitangueiras"
+      },
+      "day": [
+        "Segunda",
+        "Terça",
+        "Domingo"
+      ],
+      "lane": [
+        "Faixa 1",
+        "Faixa 3"
+      ],
+      "morning_period": [
+        {
+          "from": "01:01",
+          "to": "10:44"
+        }
+      ],
+      "afternoon_period": [
+        {
+          "from": "13:46",
+          "to": "12:46"
+        }
+      ],
+      "infraction": "Blitz",
+      "initial_date": "2022-09-05",
+      "final_date": "2022-09-26",
+      "initial_hour": "",
+      "final_hour": "",
+      "id": 9
+    },
+    {
+      "type": "Excecao",
+      "local": {
+        "type": "Urbano",
+        "local_name": "31 de março "
+      },
+      "day": [
+        "Segunda",
+        "Terça",
+        "Quarta",
+        "Quinta",
+        "Sexta",
+        "Sabado"
+      ],
+      "lane": [
+        "Faixa 1",
+        "Faixa 2"
+      ],
+      "morning_period": [
+        {
+          "from": "02:02",
+          "to": "03:03"
+        }
+      ],
+      "afternoon_period": [
+        {
+          "from": "13:33",
+          "to": "12:12"
+        }
+      ],
+      "infraction": "Monitoramento",
+      "initial_date": "2022-09-05",
+      "final_date": "2022-09-19",
+      "initial_hour": "",
+      "final_hour": "",
+      "id": 10
+    },
+    {
+      "type": "Agendamento",
+      "local": {
+        "type": "Urbano",
+        "local_name": "31 de março "
+      },
+      "day": [
+        "Domingo"
+      ],
+      "lane": [
+        "Faixa 1"
+      ],
+      "morning_period": [
+        {
+          "from": "16:56",
+          "to": "16:57"
+        }
+      ],
+      "afternoon_period": [
+        {
+          "from": "16:57",
+          "to": "16:57"
+        }
+      ],
+      "infraction": "Rodizio",
+      "initial_date": "2022-09-13",
+      "final_date": "2022-09-13",
+      "initial_hour": "16:56",
+      "final_hour": "17:56",
+      "id": 11
+    }
+  ]
+}
